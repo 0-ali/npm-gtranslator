@@ -8,7 +8,7 @@
         this.settings.params = deepExtend(this.settings.params, arguments[0]);
         if (typeof arguments[1] == "function") {
             this.success = arguments[1];
-        }l
+        }
         if (typeof arguments[2] == "function") {
             this.error = arguments[2];
         }
